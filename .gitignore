@@ -1,0 +1,73 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+TestResults
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+#stuff
+bin
+obj
+packages
+*.suo
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+**/.vs/
+
+#generated stuff
+*.orig
+*.origin.cs
+*.origin.sql
+InstallUtil.InstallLog
+*.transform.values
+*.transform.config.replaced
+
+#build custom output directory
+_output/
+
+#check https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/**/workspace.xml
+.idea/**/usage.statistics.xml
+.idea/**/tasks.xml
+_iisOutput/

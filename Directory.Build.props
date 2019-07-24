@@ -1,0 +1,35 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <!-- The properties below will be included into every project -->
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>7.3</LangVersion>
+        <TargetLatestRuntimePatch>false</TargetLatestRuntimePatch>
+        <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <NoWarn>$(NoWarn);NU1605</NoWarn>
+        <NuGetPackageFolders>$(SolutionDir)packages</NuGetPackageFolders>
+        <NuGetPackageRoot>$(SolutionDir)packages</NuGetPackageRoot>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <PlatformTarget>x64</PlatformTarget>
+        <OutputPath>..\_output</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version>$(AssemblyVersion)</Version>
+        <Authors>snowinmars</Authors>
+        <Company>snowinmars</Company>
+        <Product>snowinmars.Mimer-$(CommitHash)</Product>
+        <AssemblyVersion>$(AssemblyVersion)</AssemblyVersion>
+        <FileVersion>$(AssemblyVersion)</FileVersion>
+        <NeutralLanguage>en</NeutralLanguage>
+        <Description>$(CommitHash)</Description>
+        <Copyright>GNU/GPL 3.0</Copyright>
+        <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</PackageLicenseUrl>
+        <PackageProjectUrl>https://www.gnu.org</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/snowinmars/Mimer</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>mime mimetype</PackageTags>
+  </PropertyGroup>
+</Project>

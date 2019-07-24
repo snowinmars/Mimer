@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>snowinmars.Mimer</PackageId>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>snowinmars</Authors>
+        <Title>snowinmars.Mimer</Title>
+        <Description>Detect mime type of a file from its binary representation</Description>
+    </PropertyGroup>
+
+</Project>
