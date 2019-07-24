@@ -16,6 +16,12 @@ The algorithm doesn't work for sure, but it could be a good start point.
 
 # Usage
 
+## Installation
+
+Use [NuGet package](https://www.nuget.org/packages/snowinmars.Mimer/)
+
+## Code example
+
 ```
 Mimer.DetectedMimeType mime = Mimer.MimeDetector.Detect(@"C:\myfile");
 Console.WriteLine(mime);
