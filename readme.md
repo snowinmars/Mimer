@@ -37,3 +37,7 @@ Do not fully trust the `MimeToString` function: I wrote it for my case only and 
 * Fork the repo
 * Push changes to a branch
 * Create a pull request from forked repository into this one
+
+## Contact me
+* Telegram: `@snowinmars`
+* Email: `snowinmars@yandex.ru`
